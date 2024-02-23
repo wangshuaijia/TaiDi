@@ -1,0 +1,91 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{王帅家}
+
+\basicInfo{
+  \email{17798545094@163.com} \textperiodcentered\ 
+  \phone{(17798545094} \textperiodcentered\ 
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{南京理工大学}, 南京}{2020 -- 2023}
+\textit{硕士研究生}\ 计算机技术
+\datedsubsection{\textbf{南京财经大学}, 南京}{2016 -- 2020}
+\textit{学士}\ 信息管理与信息系统
+
+\section{\faUsers\ 工作经历}
+\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
+\role{实习}{经理: 高富帅}
+xxx后端开发
+\begin{itemize}
+  \item 实现了 xxx 特性
+  \item 后台资源占用率减少8\%
+  \item xxx
+\end{itemize}
+
+\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
+\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+\begin{onehalfspacing}
+分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+\begin{itemize}
+  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
+  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
+  \item xxx (尽量使用量化的客观结果)
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
+\role{\LaTeX, Python}{个人项目}
+\begin{onehalfspacing}
+优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+\begin{itemize}
+  \item 容易定制和扩展
+  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
+  \item 支持 FontAwesome 4.5.0
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 精通C#相关知识，具备良好的编码能力；熟悉面向对象编程思想及常用的设计模式
+  \item 精通并发线程，对C#锁机制、线程池机制有深入了解，并在项目中熟练使用
+  \item 熟练掌握串口通信、CAN通信等上/下位机通信原理和使用，掌握UDS诊断相关知识
+  \item 熟练掌握Redis的底层磁盘及网络IO模型、数据持久化机制、多数据类型缓存应用、高可用机制及分布式集群实现
+  \item 熟练掌握Mysql数据库底层原理；熟悉Mysql调优、索引优化及存储引擎；对事务、锁、集群有深入了解
+  \item
+  \item 具备Sql Server、Mysql、Redis数据库使用经验
+  \item 了解MES系统，具备MES系统对接经验
+\end{itemize}
+
+\section{\faInfo\ 自我评价}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 个人能力: 擅长钻研、学习能力强、做事认真谨慎、擅长规划
+  \item 语言: 英语 - 熟练（CET-6）
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
